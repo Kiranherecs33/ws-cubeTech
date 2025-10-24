@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+body{
+  margin: 0;
+  padding: 0;
+
+}
+header{
+  background-color: #2d4ab1;
+}
+.banner-content  {
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+.banner-content h2{
+  color: black; 
+font-size: 33px;
+line-height: 40px;
+}
+.banner-content  p{
+line-height: 27px;
+    color: black; 
+font-size: 18px;
+}
+.banner-content .banner-list li i{
+  color: #2d4ab1;
+font-size: 17px;
+
+}
+.banner-content .banner-list li{
+line-height: 30px;
+    color: rgb(25, 24, 24); 
+font-size: 17px;
+}
+.banner-content h2 span{
+  color: rgb(30, 115, 126);
+}
+.banner-btn{
+   margin-top: 17px;
+}
+.reg-btn  button{
+  text-align: center;
+}
+.reg-btn  button  {
+   background-color: #3255d1;
+   border: none;
+   border-radius: 7px;
+   padding: 13px 39px;
+   color: white;
+   font-size: 17px;
+   display:block;
+   margin: auto;
+   margin-top: 17px;
+
+  } 
+  .reg-btn  button:hover{
+   background-color: #112674;
+
+  }
+.banner-btn button{
+   background-color: #3255d1;
+   border: none;
+   border-radius: 7px;
+   padding: 13px 10px;
+   color: white;
+   font-size: 17px;
+  }
+  .banner-btn button:hover{
+   background-color: #112674;
+  
+  }
+  .banner-btn button i{
+    color: rgb(7, 38, 7);
+    font-size: 17px;
+  }
+.banner-form{
+  padding: 30px 35px;
+  border-radius: 10px;
+}
+.banner-form h3{
+   color: black; 
+font-size: 23px;
+line-height: 20px;
+} 
+
+.banner-form p{
+   color: black; 
+font-size: 15px;
+line-height: 20px;
+} 
+/* modal strt   */
+.modal-form-download{
+  padding: 10px;
+}
+/* modal end  */
+.counter-box h4{
+color: #192d73;
+font-size: 22px;
+font-weight: 500;
+
+}
+.counter-box p{
+color:black;
+font-size: 17px;
+}
+.higlights{
+  background-color: rgb(212, 232, 232);
+}
+.higlights-heading h3{
+   font-size: 27px;
+   color: black;
+   font-weight: 600;
+   line-height: 35px;
+}
+.higlights-heading p{
+   font-size: 18px;
+   color: black;
+   font-weight: 400;
+   line-height: 22px;
+}
+.higlights-content h5{
+   font-size: 20;
+   color: black;
+   font-weight: 500;
+}
+
+.higlights-content p{
+   font-size: 14px;
+   color: black;
+  
+}
+
+.higlights-box{
+   padding: 12px 14px;
+
+  border-radius: 10px;
+}
